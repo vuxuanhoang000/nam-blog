@@ -29,7 +29,7 @@ function readData() {
                 <th scope="row">${row + 1}</th>
                 <td>${sheet_data[row][0]}</td>
                 <td>
-                    <a href="${sheet_data[row][3]}"><img
+                    <a href="${sheet_data[row][3]}" target="_blank"><img
                         height="100px"
                         src="${sheet_data[row][1]}"
                         alt="${sheet_data[row][2]}"
